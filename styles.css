@@ -1,17 +1,25 @@
 /*------------   Global   ------------*/
+html {
+    margin: 0;
+    padding: 0px;
+}
 body {
     font-family: 'Chelsea Market', cursive;
     font-size: 16px;
     margin: 0;
+    padding: 0;
     background-color: black;
     color: white;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 
 /*------------   Header   ------------*/
 .header {
     top: 0;
+    right: 0;
     height: 165px; 
     width: 100%;
     padding-top: 1rem;
@@ -19,6 +27,7 @@ body {
     border-bottom: 2px solid rgba(248, 248, 255, .5); 
     box-shadow: 0pt 0pt 25pt ghostwhite;
     margin-bottom: 150px;
+    margin-right: 0;
 }
 
 .nav {
@@ -37,12 +46,12 @@ body {
     margin: 0;
     width: 100%;
     justify-content: space-around;
+    padding: 0;
 }
 
 .nav li {
     display: inline-block;
     list-style: none;
-    margin-right: 4rem;
     font-size: 1.25rem;
 }
 
@@ -58,6 +67,7 @@ body {
 .header h2 {
     padding: 0;
     margin-top: 0;
+    margin-right: 0;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px black, 0 0 60px blue, 0 0 30px darkblue;;
 }
@@ -71,6 +81,7 @@ main {
     border-bottom: 2px solid rgba(248, 248, 255, .5); 
     box-shadow: 0pt 0pt 25pt ghostwhite;
     margin-bottom: 100px;
+    margin-right: 0em
 }
 
 .section {
@@ -98,19 +109,22 @@ img {
 
 .photos {
     margin-bottom: 100px;
+    margin-right: 0em;
 }
 
 /*------------   Testimonial   ------------*/
 
 .testimonial {
     display: flex;
-    padding: 50px 100px 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     height: 200px;
-    width: 100%;
     box-shadow: 0pt 0pt 25pt ghostwhite;
     margin-bottom: 100px;
     text-align: center;
     flex-direction: column;
+    margin-right: 0;
+    width: 100%;
 }
 
 #testimonial {
@@ -138,6 +152,8 @@ img {
     justify-content: space-between;
     font-size: .75rem;
     align-items: baseline;
+    margin-right: 0em;
+    right: 0;
 }
 
 .footer img {
