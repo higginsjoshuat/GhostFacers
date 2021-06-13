@@ -112,6 +112,34 @@ img {
     margin-right: 0em;
 }
 
+@media only screen and (max-width: 1090px) {
+    .first {
+        width: 270px;
+    }
+    
+    .second {
+        width: 300px;
+    }
+    
+    .third {
+        width: 225px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .first {
+        width: 180px;
+    }
+    
+    .second {
+        width: 200px;
+    }
+    
+    .third {
+        width: 150px;
+    }
+}
+
 /*------------   Testimonial   ------------*/
 
 .testimonial {
