@@ -1,13 +1,84 @@
 /*------------   Global   ------------*/
-
+body {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 
 /*------------   Header   ------------*/
+.header {
+    top: 0;
+    height: 165px; 
+    padding-top: 1rem;
+    background: linear-gradient(#696969, #000);
+    border-bottom: 2px solid rgba(248, 248, 255, .5); 
+    box-shadow: 0pt 0pt 25pt ghostwhite;
+    margin-bottom: 150px;
+}
 
+.nav {
+    display: block;
+    width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 4rem;
+    font-size: 1.25rem;
+}
+
+.header h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 5rem;
+    text-shadow: 0px 5px ;
+    letter-spacing: 1rem;
+    text-shadow: 0pt 0pt 15pt ghostwhite;
+}
+
+.header h2 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px black, 0 0 60px blue, 0 0 30px darkblue;;
+}
 
 
 /*------------   Main   ------------*/
+main {
+    display: flex;
+    position: relative;
+    margin-top: 300px;
+    border-bottom: 2px solid rgba(248, 248, 255, .5); 
+    box-shadow: 0pt 0pt 25pt ghostwhite;
+    margin-bottom: 100px;
+}
 
+.section {
+    margin-bottom: 120px;
+}
+
+img {
+    width: 600px;
+}
 
 
 /*------------   Photos   ------------*/
